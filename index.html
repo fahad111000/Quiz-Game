@@ -24,53 +24,50 @@
             <div class="questions">
                 <!-- Questions -->
                 <h1>
-                    <span class="current-question">1</span>
+                    <span id="firstQuestion"></span>
                     of
                     <span class="last-question">5</span>
                     Question
                 </h1>
 
-                <!-- Timer -->
-                <div class="timer">
-                    <!-- clock -->
-                    <!-- Count Down -->
-                </div>
+                <!-- Total marks -->
+                <h1 id="marks">Marks: <span><strong id="studentMarks">0</strong></span></h1>
             </div>
 
             <!-- Top -->
             <div class="title">
-                <h1>Which programming language is best for website?</h1>
+                <h1 id="questionTitle"></h1>
             </div>
 
 
             <!-- Bottom -->
             <div class="middle">
 
-                <div class="option">
+                <div class="option " id="correctOption">
                     <input type="radio" name="radio">
-                    <label>JAVA</label>
+                    <label></label>
                 </div>
 
                 <div class="option">
                     <input type="radio" name="radio">
-                    <label>JS</label>
+                    <label></label>
                 </div>
 
                 <div class="option">
                     <input type="radio" name="radio">
-                    <label>C++</label>
+                    <label></label>
                 </div>
 
                 <div class="option">
                     <input type="radio" name="radio">
-                    <label>Python</label>
+                    <label></label>
                 </div>
             </div>
 
 
             <!-- Button -->
             <div class="end">
-                <button class="btn">Submit</button>
+                <button id="submit" class="btn">Submit</button>
                 <!-- <button class="btn">Next</button> -->
             </div>
 

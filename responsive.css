@@ -1,0 +1,58 @@
+@media (800px <=width < 1020px) {
+    .container {
+        width: 37%;
+    }
+
+}
+
+@media (600px <=width < 800px) {
+    .container {
+        width: 37%;
+    }
+
+}
+
+
+@media (425px <=width < 600px) {
+    .container {
+        width: 67%;
+    }
+
+}
+
+@media (370px <=width < 425px) {
+    .container {
+        width: 67%;
+    }
+
+
+    .end .btn {
+        width: 100%;
+    }
+
+}
+
+
+@media (320px <=width < 370px) {
+    .container {
+        width: 67%;
+    }
+
+
+    .end .btn {
+        width: 100%;
+    }
+
+}
+
+@media (250px <=width < 320px) {
+    .container {
+        width: 50%;
+    }
+
+
+    .end .btn {
+        width: 100%;
+    }
+
+}
