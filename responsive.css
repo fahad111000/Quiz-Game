@@ -16,6 +16,11 @@
 @media (425px <=width < 600px) {
     .container {
         width: 67%;
+
+    }
+
+    .questions span {
+        font-weight: normal;
     }
 
 }
@@ -23,6 +28,10 @@
 @media (370px <=width < 425px) {
     .container {
         width: 67%;
+    }
+
+    .questions span {
+        font-weight: normal;
     }
 
 

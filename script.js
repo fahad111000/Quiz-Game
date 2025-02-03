@@ -95,9 +95,13 @@ function displayQuestions() {
 
     else {
         studentMarks.textContent = totalMarks
-        let playAgain = prompt("do you want play again? y/n");
+        let playAgain = prompt(`your Marks is :${totalMarks} \nDo you want play again? y/n`);
+        
         if (playAgain === "y" || playAgain === "Y") {
             currentQuestion = 0;
+            totalMarks = 0;
+            studentMarks.textContent = totalMarks
+            
             displayQuestions();
         }
 
